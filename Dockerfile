@@ -23,4 +23,4 @@ RUN npm install --prod
 
 COPY --from=development /usr/src/app/dist ./dist
 
-CMD [ "node","dist/apps/reservations/main" ]
+CMD [ "node","dist/main" ]
